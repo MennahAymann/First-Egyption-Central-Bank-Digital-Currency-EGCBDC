@@ -21,8 +21,7 @@ class Blockchain:
       def print_previous_block(self):
           return self.chain[-1]
         
-    # This is the function for proof of work
-    # and used to successfully mine the block
+    
     def proof_of_work(self, previous_proof):
         new_proof = 1
         check_proof = False
